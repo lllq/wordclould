@@ -28,7 +28,7 @@ def get_song_lyric(headers, lyric_url):
         return new_lyric
     else:
         return ''
-        print(res.json())
+       
 
 
 # 去掉停用词
