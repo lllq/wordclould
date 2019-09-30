@@ -81,7 +81,7 @@ def get_songs(artist_id):
     return song_ids, song_names
 
 
-# 设置歌手 ID，王菲为 12138269
+# 设置歌手 ID，王菲为 9621
 artist_id = '9621'
 [song_ids, song_names] = get_songs(artist_id)
 # 所有歌词
